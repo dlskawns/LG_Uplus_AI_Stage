@@ -75,15 +75,19 @@
 ### 4. 성능 평가
 - ValidationSet Score 기준 평가 metric
     - Baseline
+      
         <img src='https://i.imgur.com/cDlOPH9.png'>
         
     - Opt1: Baseline + runtime + sex + view
+      
         <img src = 'https://i.imgur.com/Kj4SqoI.png'>
         
     - Opt2: Baseline + runtime + sex + view + search + payment
+      
         <img src = 'https://i.imgur.com/Qfr1ssx.png'>
         
     - Opt3: Baseline + Full Features + FM Layer (GPU 문제로 10회)
+      
         <img src = 'https://i.imgur.com/C3iI1b7.png'>
         
     - Public Score 기준 평가 metrics (더 중요)
