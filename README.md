@@ -27,7 +27,7 @@
 
 ### 실험 가설 정립 (Model Feature Selection process)
 * 연령 (User meta data) / 장르 (Genre) -> 데이터 공개 불가로 시각자료 상 수치 제거
-    <img src='https://i.imgur.com/8n46KFm.png'>
+  <img src='https://i.imgur.com/8n46KFm.png'>
 
     - 연령과 활성사용 분포가 다른 만큼 유저 별 세분화된 추천이 필요
         - ‘age’ feature를 추가적으로 고려해볼 것
@@ -39,7 +39,7 @@
             - P-value = 0.0
             귀무가설을 기각하고, 분포가 다름을 확인 → **연령 별 장르에 대한 고려가 필요.**
 * 런타임 (Item meta data) / 아이템 소비 횟수(인기의 정도)
-    <img src= 'https://i.imgur.com/qqdD85F.png'>
+  <img src= 'https://i.imgur.com/qqdD85F.png'>
 
     - 산점도를 통한 선형성 확인 → 특정할 수 없으며, 런타임 및 총사용 수 변수의 왜도가 높아 log변환을 통한 상관분석 동시 시행
     - 변환 이전:
